@@ -10,4 +10,6 @@ class Prestito:
     
     def is_attivo(self):
         return self.data_restituzione is None
+    
+    #33r4r3
 
