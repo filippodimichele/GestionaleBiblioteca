@@ -14,5 +14,6 @@ class Libro:
     def restituisci(self):
         self.disponibile = True
         
+        
     def __str__(self):
         stato = "Disponibile" if self.disponibile else "In prestito"
