@@ -11,5 +11,7 @@ class Prestito:
     def is_attivo(self):
         return self.data_restituzione is None
     
-    #33r4r3
+    def __str__(self):
+        if self.is_attivo # mancano i due return con libro.titolo, data.prestito e data.restituzione
+   
 
