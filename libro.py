@@ -15,4 +15,4 @@ class Libro:
         self.disponibile = True
         
     def __str__(self):
-        stato = "Disponibile"
+        stato = "Disponibile" if self.disponibile else "In prestito"
