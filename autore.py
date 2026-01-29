@@ -5,4 +5,4 @@ class Autore:
         self.nazionalita = nazionalita
         
     def __str__(self):
-         return f"{self.nome} ({self.nazionalita})"
+         return f"{self.nome} ({self.nazionalita})" 
