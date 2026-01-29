@@ -4,5 +4,6 @@ class Prestito:
         self.utente = utente 
         self.data_prestito = data_prestito
         self.data_restituzione = None
+        fwefwef
         
         
